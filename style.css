@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    background: pink;
+    height: 100%;
+}
+
+.colors {
+    display: flex;
+    height: 100%;
+}
+
+.color-box {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    border-right: solid 1px #eee;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
 }
