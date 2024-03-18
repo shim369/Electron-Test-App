@@ -5,11 +5,19 @@
 }
 
 html {
-    height: 100%;
+    height: calc(100% - 80px);
 }
 
 body {
     height: 100%;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background: #000;
+    color: #fff;
 }
 
 .colors {
@@ -29,6 +37,8 @@ body {
 }
 
 input {
-    padding: 10px;
+    width: 100%;
+    padding: 10px 2%;
     border-radius: 8px;
+    border: solid #ccc 2px;
 }
